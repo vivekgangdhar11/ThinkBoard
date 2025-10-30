@@ -5,7 +5,7 @@ import { ArrowLeftIcon } from "lucide-react";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router";
 import api from "../lib/axios";
-import { useEffect } from "react";
+
 
 const CreatePage = () => {
   const [title, setTitle] = useState("");
